@@ -20,6 +20,7 @@ When your virtual environment starts up, install Flask and SQLAlchemy:
 $ pip install flask
 $ pip install flask_sqlalchemy
 $ pip install marshmallow-sqlalchemy
+$ pip install flask_marshmallow
 ```
 
 ## Setting Up the Database
