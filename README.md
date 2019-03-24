@@ -11,7 +11,7 @@ Once everything is done installing, run the virtual environment:
 ```
 $ source venv/bin/activate
 ```
-If you are using Windows, use this command:
+If you are using Windows, use this command to run the virtual environment:
 ```
 $ venv/Scripts/activate
 ```
