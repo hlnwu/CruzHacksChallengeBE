@@ -30,7 +30,7 @@ In Python, run
 >>> db.create_all()
 ```
 to create the database.
-Now you can run `python app.py` to start the Flask application!
+Now you can run `python app.py` in the "Flask" folder to start the Flask application!
 
 ## Note
 If you ever want to see all the hackers you've inputted, go to:
