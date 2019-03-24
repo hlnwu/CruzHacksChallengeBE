@@ -76,7 +76,6 @@ def add_hacker():
     db.session.commit()
     return str(new_hacker)
 
-
 # endpoint to show all hackers
 @app.route("/hackers", methods=["GET"])
 def get_hacker():
@@ -115,8 +114,6 @@ def hacker_delete(id):
     db.session.commit()
 
     return hacker_schema.jsonify(hacker)
-
-
 
 if __name__ == '__main__':
     app.run(debug=True) 
